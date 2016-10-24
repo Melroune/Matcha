@@ -1,0 +1,4 @@
+{
+	"regle pour config babel et coder en es6"
+  "presets" : ["es2015", "stage-0"]
+}

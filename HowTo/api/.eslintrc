@@ -1,0 +1,15 @@
+{
+    "env": { // regle qui permette de coder en es6
+        "es6": true,
+        "node": true
+    },
+    "extends": "airbnb-base // je dis que mon linter obeit au regles de air bnb",
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": { // regle que je peux ajouter manu militari au linter 
+        "no-underscore-dangle": 0,
+        "indent": 0
+    }
+}

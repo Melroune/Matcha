@@ -1,0 +1,28 @@
+.sign-in-form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	margin: auto;
+	height: inherit;
+	animation-name: signinfade;
+	animation-duration: 3s;
+	opacity: 1;
+	animation-iteration-count: 1;
+	/*background-color: red;*/
+}
+@-webkit-keyframes signinfade {
+0% {opacity: 0}
+100% {opacity: 1}
+
+}
+
+.sign-in-form input{
+	margin: 5px;
+	width: 50vw;
+	height: 4vh;
+	border-radius: 5px;
+	font-size: 4vh;
+	text-align: center;
+}
